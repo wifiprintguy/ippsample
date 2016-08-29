@@ -18,13 +18,36 @@ a.button:hover {
   background: #262d54;
 }
 
-/* Header and footer */
+/* Header, footer, and navigation */
+.nav {
+  background: rgba(24,24,20,.9);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav ul, .nav li {
+  display: inline;
+}
+
+.nav a {
+  color: #fff;
+  line-height: 30px;
+  padding: 2px 5px 4px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background: #fff;
+  color: #4b5aa8;
+}
+
 .head {
   background: #181814;
   background-image: linear-gradient(#181814, #4b5aa8);
   padding: 50px 0px;
   width: 100%;
-  z-index: 100 !important;
 }
 
 .foot {
